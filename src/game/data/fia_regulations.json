@@ -1,0 +1,52 @@
+{
+  "currentVersion": 3,
+  "changeIntervalWeeks": 6,
+  "categories": {
+    "technical": {
+      "powerUnit": {
+        "maxPowerKW": 750,
+        "maxEnergyPerLapMJ": 4.0,
+        "fuelFlowLimitKgH": 100,
+        "minWeightKg": 798,
+        "allowedMaterials": ["aluminium", "titanium", "carbon_composite"]
+      },
+      "aerodynamics": {
+        "frontWingMaxElements": 4,
+        "rearWingDRS": true,
+        "floorEdgeRadiusMin": 50,
+        "diffuserHeightMax": 175
+      },
+      "tyres": {
+        "compoundsPerWeekend": 3,
+        "mandatoryPitStops": 1,
+        "wetTyreHeated": false
+      }
+    },
+    "sporting": {
+      "pointsSystem": [25, 18, 15, 12, 10, 8, 6, 4, 2, 1],
+      "sprintRace": false,
+      "sprintPoints": [8, 7, 6, 5, 4, 3, 2, 1],
+      "qualifyingFormat": "knockout",
+      "maxPenaltyPoints": 12
+    },
+    "safety": {
+      "haloRequired": true,
+      "barrierStandard": "tecpro",
+      "minMedicalCars": 2,
+      "marshalPostsPerKm": 5
+    },
+    "financial": {
+      "costCapMillions": 135,
+      "windTunnelHoursPerWeek": 40,
+      "cfiDTestingDays": 15
+    }
+  },
+  "history": [
+    { "version": 1, "effectiveWeek": 1, "changes": "Initial 2024 regulations" },
+    { "version": 2, "effectiveWeek": 7, "changes": "Reduced fuel flow, increased min weight +2kg" },
+    { "version": 3, "effectiveWeek": 13, "changes": "New tyre blanket ban, simplified front wing" }
+  ],
+  "upcoming": [
+    { "version": 4, "effectiveWeek": 19, "preview": "Active suspension allowed, cost cap -5%" }
+  ]
+}

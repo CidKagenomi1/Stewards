@@ -1,0 +1,292 @@
+{
+  "grades": [
+    {
+      "id": 1,
+      "name": "Grade 1",
+      "label": "FIA Grade 1",
+      "description": "Eligible for Formula 1, WEC, WRC. Highest standard.",
+      "color": "#f5a623",
+      "series": ["Formula 1", "WEC", "WRC", "DTM"],
+      "requirements": {
+        "track": {
+          "minLength": 3500,
+          "maxLength": 7000,
+          "minWidth": 15,
+          "minPitLaneWidth": 12,
+          "requiresPitLane": true,
+          "requiresDRSZone": true,
+          "minCornerRadius": 20,
+          "runoffRequired": "tarmac",
+          "barrierRequired": ["armco", "tecpro"]
+        },
+        "medical": {
+          "facilityLevel": "Medical Centre",
+          "doctorsOnSite": 2,
+          "ambulances": 4,
+          "requiresHelipad": true,
+          "requiresHospital": false
+        },
+        "safety": {
+          "marshalPostsPerMeter": 200,
+          "fireTrucks": 4,
+          "cranes": 4,
+          "safetyCarRequired": true
+        },
+        "infrastructure": {
+          "minPitGarages": 30,
+          "requiresControlTower": true,
+          "requiresMediaCentre": true,
+          "requiresHospitality": true,
+          "minGrandstandSeats": 5000,
+          "requiresFuelStorage": true,
+          "requiresTimingSystem": true
+        },
+        "access": {
+          "minParkingSpaces": 5000,
+          "requiresPressRoom": true,
+          "requiresBroadcastTower": true
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Grade 2",
+      "label": "FIA Grade 2",
+      "description": "Eligible for Formula 2, Formula 3, GT World Challenge.",
+      "color": "#c0c0c0",
+      "series": ["Formula 2", "Formula 3", "GT World Challenge", "Porsche Supercup"],
+      "requirements": {
+        "track": {
+          "minLength": 2000,
+          "maxLength": 7000,
+          "minWidth": 12,
+          "minPitLaneWidth": 10,
+          "requiresPitLane": true,
+          "requiresDRSZone": false,
+          "minCornerRadius": 15,
+          "runoffRequired": "mixed",
+          "barrierRequired": ["armco"]
+        },
+        "medical": {
+          "facilityLevel": "Medical Room",
+          "doctorsOnSite": 1,
+          "ambulances": 2,
+          "requiresHelipad": false,
+          "requiresHospital": false
+        },
+        "safety": {
+          "marshalPostsPerMeter": 300,
+          "fireTrucks": 2,
+          "cranes": 2,
+          "safetyCarRequired": true
+        },
+        "infrastructure": {
+          "minPitGarages": 20,
+          "requiresControlTower": true,
+          "requiresMediaCentre": false,
+          "requiresHospitality": false,
+          "minGrandstandSeats": 2000,
+          "requiresFuelStorage": true,
+          "requiresTimingSystem": true
+        },
+        "access": {
+          "minParkingSpaces": 2000,
+          "requiresPressRoom": false,
+          "requiresBroadcastTower": false
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Grade 3",
+      "label": "FIA Grade 3",
+      "description": "Eligible for Formula 4, Formula Regional, national championships.",
+      "color": "#cd7f32",
+      "series": ["Formula 4", "Formula Regional", "National Saloon", "Touring Cars"],
+      "requirements": {
+        "track": {
+          "minLength": 1500,
+          "maxLength": 7000,
+          "minWidth": 10,
+          "minPitLaneWidth": 8,
+          "requiresPitLane": true,
+          "requiresDRSZone": false,
+          "minCornerRadius": 10,
+          "runoffRequired": "gravel",
+          "barrierRequired": ["armco"]
+        },
+        "medical": {
+          "facilityLevel": "First Aid Post",
+          "doctorsOnSite": 1,
+          "ambulances": 1,
+          "requiresHelipad": false,
+          "requiresHospital": false
+        },
+        "safety": {
+          "marshalPostsPerMeter": 400,
+          "fireTrucks": 1,
+          "cranes": 1,
+          "safetyCarRequired": false
+        },
+        "infrastructure": {
+          "minPitGarages": 12,
+          "requiresControlTower": false,
+          "requiresMediaCentre": false,
+          "requiresHospitality": false,
+          "minGrandstandSeats": 500,
+          "requiresFuelStorage": false,
+          "requiresTimingSystem": true
+        },
+        "access": {
+          "minParkingSpaces": 500,
+          "requiresPressRoom": false,
+          "requiresBroadcastTower": false
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Grade 4",
+      "label": "FIA Grade 4",
+      "description": "National-level motorsport, club championships.",
+      "color": "#4a9e5c",
+      "series": ["National Championship", "Club Racing", "Time Attack"],
+      "requirements": {
+        "track": {
+          "minLength": 1000,
+          "maxLength": 7000,
+          "minWidth": 8,
+          "minPitLaneWidth": 6,
+          "requiresPitLane": true,
+          "requiresDRSZone": false,
+          "minCornerRadius": 8,
+          "runoffRequired": "none",
+          "barrierRequired": []
+        },
+        "medical": {
+          "facilityLevel": "First Aid",
+          "doctorsOnSite": 0,
+          "ambulances": 1,
+          "requiresHelipad": false,
+          "requiresHospital": false
+        },
+        "safety": {
+          "marshalPostsPerMeter": 500,
+          "fireTrucks": 1,
+          "cranes": 0,
+          "safetyCarRequired": false
+        },
+        "infrastructure": {
+          "minPitGarages": 6,
+          "requiresControlTower": false,
+          "requiresMediaCentre": false,
+          "requiresHospitality": false,
+          "minGrandstandSeats": 0,
+          "requiresFuelStorage": false,
+          "requiresTimingSystem": false
+        },
+        "access": {
+          "minParkingSpaces": 200,
+          "requiresPressRoom": false,
+          "requiresBroadcastTower": false
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Grade 5",
+      "label": "FIA Grade 5",
+      "description": "Club-level events, track days, driver training.",
+      "color": "#3d9be9",
+      "series": ["Track Day", "Arrive & Drive", "Drift Events"],
+      "requirements": {
+        "track": {
+          "minLength": 500,
+          "maxLength": 7000,
+          "minWidth": 6,
+          "minPitLaneWidth": 5,
+          "requiresPitLane": false,
+          "requiresDRSZone": false,
+          "minCornerRadius": 5,
+          "runoffRequired": "none",
+          "barrierRequired": []
+        },
+        "medical": {
+          "facilityLevel": "First Aid",
+          "doctorsOnSite": 0,
+          "ambulances": 0,
+          "requiresHelipad": false,
+          "requiresHospital": false
+        },
+        "safety": {
+          "marshalPostsPerMeter": 0,
+          "fireTrucks": 0,
+          "cranes": 0,
+          "safetyCarRequired": false
+        },
+        "infrastructure": {
+          "minPitGarages": 2,
+          "requiresControlTower": false,
+          "requiresMediaCentre": false,
+          "requiresHospitality": false,
+          "minGrandstandSeats": 0,
+          "requiresFuelStorage": false,
+          "requiresTimingSystem": false
+        },
+        "access": {
+          "minParkingSpaces": 50,
+          "requiresPressRoom": false,
+          "requiresBroadcastTower": false
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Grade 6",
+      "label": "FIA Grade 6",
+      "description": "Karting circuits and basic driver training facilities.",
+      "color": "#8b97a8",
+      "series": ["Karting", "Junior Training"],
+      "requirements": {
+        "track": {
+          "minLength": 200,
+          "maxLength": 7000,
+          "minWidth": 4,
+          "minPitLaneWidth": 3,
+          "requiresPitLane": false,
+          "requiresDRSZone": false,
+          "minCornerRadius": 3,
+          "runoffRequired": "none",
+          "barrierRequired": []
+        },
+        "medical": {
+          "facilityLevel": "None",
+          "doctorsOnSite": 0,
+          "ambulances": 0,
+          "requiresHelipad": false,
+          "requiresHospital": false
+        },
+        "safety": {
+          "marshalPostsPerMeter": 0,
+          "fireTrucks": 0,
+          "cranes": 0,
+          "safetyCarRequired": false
+        },
+        "infrastructure": {
+          "minPitGarages": 0,
+          "requiresControlTower": false,
+          "requiresMediaCentre": false,
+          "requiresHospitality": false,
+          "minGrandstandSeats": 0,
+          "requiresFuelStorage": false,
+          "requiresTimingSystem": false
+        },
+        "access": {
+          "minParkingSpaces": 10,
+          "requiresPressRoom": false,
+          "requiresBroadcastTower": false
+        }
+      }
+    }
+  ]
+}

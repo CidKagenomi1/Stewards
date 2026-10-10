@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sponsor_local_fuel",
+    "name": "PetraDrive Fuels",
+    "tier": "Local",
+    "tierLevel": 1,
+    "logo": "logo_petradrive",
+    "industry": "Fuel & Energy",
+    "dealValuePerRace": 8000,
+    "upfrontBonus": 500000,
+    "dealDurationWeeks": 10,
+    "requirements": {
+      "minGrade": 6,
+      "minReputation": 0,
+      "minAttendancePerRace": 0
+    },
+    "bonuses": [],
+    "description": "Local fuel brand. Happy to associate with any motorsport venue.",
+    "exclusivity": false
+  },
+  {
+    "id": "sponsor_regional_tyre",
+    "name": "GripTech Tyres",
+    "tier": "Regional",
+    "tierLevel": 2,
+    "logo": "logo_griptech",
+    "industry": "Automotive",
+    "dealValuePerRace": 45000,
+    "dealDurationWeeks": 20,
+    "requirements": {
+      "minGrade": 4,
+      "minReputation": 20,
+      "minAttendancePerRace": 2000
+    },
+    "bonuses": [
+      { "type": "maintenanceDiscount", "value": 0.10, "label": "10% tyre maintenance discount" }
+    ],
+    "description": "Regional tyre brand seeking circuit exposure. Provides tyre wear data in return.",
+    "exclusivity": false
+  },
+  {
+    "id": "sponsor_national_energy",
+    "name": "VoltX Energy Drink",
+    "tier": "National",
+    "tierLevel": 3,
+    "logo": "logo_voltx",
+    "industry": "FMCG",
+    "dealValuePerRace": 180000,
+    "dealDurationWeeks": 40,
+    "requirements": {
+      "minGrade": 3,
+      "minReputation": 40,
+      "minAttendancePerRace": 6000
+    },
+    "bonuses": [
+      { "type": "reputationBoost", "value": 5, "label": "+5 reputation per hosted event" }
+    ],
+    "description": "Fast-growing energy brand. Demands prominent circuit signage and activation zones.",
+    "exclusivity": false
+  },
+  {
+    "id": "sponsor_international_auto",
+    "name": "Vaelon Motorsport",
+    "tier": "International",
+    "tierLevel": 4,
+    "logo": "logo_vaelon",
+    "industry": "Automotive Manufacturer",
+    "dealValuePerRace": 750000,
+    "dealDurationWeeks": 52,
+    "requirements": {
+      "minGrade": 2,
+      "minReputation": 60,
+      "minAttendancePerRace": 15000
+    },
+    "bonuses": [
+      { "type": "reputationBoost", "value": 10, "label": "+10 reputation per event" },
+      { "type": "ticketSalesBoost", "value": 0.15, "label": "+15% ticket sales" }
+    ],
+    "description": "Global automotive manufacturer. Requires circuit naming rights deal.",
+    "exclusivity": true
+  },
+  {
+    "id": "sponsor_global_tech",
+    "name": "NexLink Technologies",
+    "tier": "Global",
+    "tierLevel": 5,
+    "logo": "logo_nexlink",
+    "industry": "Technology",
+    "dealValuePerRace": 3000000,
+    "dealDurationWeeks": 52,
+    "requirements": {
+      "minGrade": 1,
+      "minReputation": 85,
+      "minAttendancePerRace": 50000
+    },
+    "bonuses": [
+      { "type": "reputationBoost", "value": 20, "label": "+20 reputation per event" },
+      { "type": "hostingFeeBoost", "value": 0.10, "label": "+10% on all hosting fees" },
+      { "type": "tvRights", "value": true, "label": "Unlocks TV rights revenue" }
+    ],
+    "description": "Billion-dollar tech firm. Title sponsorship. Circuit renamed to NexLink Circuit.",
+    "exclusivity": true
+  }
+]

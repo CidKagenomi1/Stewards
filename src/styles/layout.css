@@ -1,0 +1,696 @@
+/* ============================================================
+   Race Manager — Design System Layout & Components
+   Adheres to design.md v2.0 (Crisp 1px borders, subtle luminescence,
+   strict button hierarchy, no AI slop / excessive neon glow)
+   ============================================================ */
+
+.rm-app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-bg-primary);
+  color: var(--clr-text-primary);
+  font-family: var(--font-body);
+}
+
+/* ── Top Bar Header (Navigation) ── */
+.rm-header-topbar {
+  background: var(--clr-bg-surface);
+  border-bottom: 1px solid var(--clr-border-subtle);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+}
+
+.rm-topbar-inner {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.rm-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.rm-brand-text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.rm-brand-title {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: var(--clr-text-primary);
+  line-height: 1.1;
+}
+
+.rm-brand-sub {
+  font-size: 10px;
+  color: var(--clr-blue-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+
+.theme-grandprix-dark .rm-brand-sub {
+  color: var(--clr-amber);
+}
+
+/* ── Top Navigation Bar: Squeeze Accordion Model ── */
+/* Semua item muat di layar tanpa perlu horizontal scroll atau geser-geser. */
+/* Item aktif/hover melebar memperlihatkan teks, item lain kompak ikon saja. */
+.rm-top-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--clr-bg-elevated);
+  padding: 4px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--clr-border-subtle);
+  flex-shrink: 0;
+}
+
+.rm-top-navlink {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 11px;
+  border-radius: var(--radius-md);
+  color: var(--clr-text-secondary);
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  transition: all 0.24s var(--ease-out);
+  border: 1px solid transparent;
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Icon wrapper */
+.rm-nav-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Squeeze Label Animation */
+.rm-nav-label {
+  display: inline-block;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition: max-width 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.2s ease,
+              margin-left 0.22s ease;
+  margin-left: 0;
+}
+
+/* Hover: Melebar sejenak memperlihatkan nama menu */
+.rm-top-navlink:hover {
+  background: var(--clr-blue-tint);
+  color: var(--clr-blue-primary);
+  border-color: rgba(37, 99, 235, 0.2);
+}
+
+.rm-top-navlink:hover .rm-nav-label {
+  max-width: 140px;
+  opacity: 1;
+  margin-left: 7px;
+}
+
+/* Active State: Selalu melebar memperlihatkan nama icon menu yang dipilih */
+.rm-top-navlink.active {
+  background: var(--clr-blue-primary);
+  color: #ffffff;
+  border-color: var(--clr-blue-primary);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.28);
+}
+
+.rm-top-navlink.active .rm-nav-label {
+  max-width: 150px;
+  opacity: 1;
+  margin-left: 7px;
+  font-weight: 700;
+}
+
+/* Squeeze Badge */
+.rm-nav-badge {
+  font-size: 10px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  background: #ef4444;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  line-height: 1;
+  margin-left: 4px;
+}
+
+/* Tema Grand Prix (Dark Mode) untuk Topbar */
+.theme-grandprix-dark .rm-top-nav {
+  background: var(--clr-bg-surface);
+  border-color: var(--clr-border-subtle);
+}
+
+.theme-grandprix-dark .rm-top-navlink {
+  color: var(--clr-text-secondary);
+}
+
+.theme-grandprix-dark .rm-top-navlink:hover {
+  background: rgba(245, 166, 35, 0.1);
+  color: var(--clr-amber);
+  border-color: rgba(245, 166, 35, 0.2);
+}
+
+.theme-grandprix-dark .rm-top-navlink.active {
+  background: var(--clr-amber);
+  color: #0a0c10;
+  border-color: var(--clr-amber);
+  box-shadow: 0 2px 10px rgba(245, 166, 35, 0.25);
+}
+
+/* ── Top Bar Right Stats ── */
+.rm-topbar-stats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.rm-stat-chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--clr-bg-card);
+  padding: 6px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--clr-border-subtle);
+  box-shadow: var(--shadow-card);
+}
+
+.rm-stat-chip-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--clr-text-muted);
+  font-family: var(--font-heading);
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.rm-stat-chip-val {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 15px;
+  font-feature-settings: 'tnum' 1;
+}
+
+/* ── Content Container ── */
+.rm-page-body {
+  max-width: 1560px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 24px 60px;
+  flex-grow: 1;
+}
+
+/* ── Page Header Standard ── */
+.rm-page-header {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--clr-border-subtle);
+  padding-bottom: 16px;
+}
+
+.rm-page-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  color: var(--clr-white-pure);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rm-page-desc {
+  font-size: 13px;
+  color: var(--clr-text-secondary);
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+/* ── Grid Utilities ── */
+.rm-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.rm-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.rm-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+/* ── Cards & Panels ── */
+.rm-card {
+  background: var(--clr-bg-card);
+  border: 1px solid var(--clr-border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+}
+
+.rm-card:hover {
+  border-color: var(--clr-border-strong);
+}
+
+.rm-stat-card {
+  background: var(--clr-bg-card);
+  border: 1px solid var(--clr-border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-shadow: var(--shadow-card);
+}
+
+/* ── Hierarki Tombol Aksi (Section 5.1 design.md) ── */
+.rm-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.18s var(--ease-out);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Level 1: Primary Action (White & Blue: Royal Blue; GP Dark: Amber) */
+.rm-btn-primary {
+  background: var(--clr-blue-primary);
+  color: #ffffff;
+  border-color: var(--clr-blue-primary);
+}
+
+.rm-btn-primary:hover {
+  background: var(--clr-blue-dark);
+  border-color: var(--clr-blue-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.rm-btn-primary:active {
+  transform: translateY(0);
+}
+
+.theme-grandprix-dark .rm-btn-primary {
+  background: var(--clr-amber);
+  color: #0a0c10;
+  border-color: var(--clr-amber);
+}
+
+.theme-grandprix-dark .rm-btn-primary:hover {
+  background: var(--clr-amber-light);
+  border-color: var(--clr-amber-light);
+  box-shadow: 0 0 10px rgba(245, 166, 35, 0.25);
+}
+
+/* Level 2: Secondary / Outline Action */
+.rm-btn-outline,
+.rm-btn-secondary {
+  background: var(--clr-bg-card);
+  border-color: var(--clr-border-default);
+  color: var(--clr-text-primary);
+}
+
+.rm-btn-outline:hover,
+.rm-btn-secondary:hover {
+  border-color: var(--clr-blue-primary);
+  color: var(--clr-blue-primary);
+  background: var(--clr-blue-tint);
+}
+
+.theme-grandprix-dark .rm-btn-outline,
+.theme-grandprix-dark .rm-btn-secondary {
+  background: var(--clr-bg-elevated);
+  border-color: var(--clr-border-default);
+  color: var(--clr-text-primary);
+}
+
+.theme-grandprix-dark .rm-btn-outline:hover,
+.theme-grandprix-dark .rm-btn-secondary:hover {
+  border-color: var(--clr-border-strong);
+  color: #ffffff;
+  background: #283042;
+}
+
+/* Level 3: Tertiary / Ghost Action */
+.rm-btn-ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-text-secondary);
+}
+
+.rm-btn-ghost:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--clr-text-primary);
+}
+
+.theme-grandprix-dark .rm-btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+}
+
+/* Level 4: Destructive / Danger Action */
+.rm-btn-danger {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: rgba(239, 68, 68, 0.35);
+  color: #ef4444;
+}
+
+.rm-btn-danger:hover {
+  background: #ef4444;
+  color: #ffffff;
+  border-color: #ef4444;
+}
+
+/* ── Badges & Tags ── */
+.rm-tag {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-heading);
+}
+
+.rm-tag-success {
+  background: rgba(46, 204, 113, 0.12);
+  color: #16a34a;
+  border: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.rm-tag-warning {
+  background: rgba(217, 119, 6, 0.12);
+  color: #b45309;
+  border: 1px solid rgba(217, 119, 6, 0.3);
+}
+
+.rm-tag-danger {
+  background: rgba(239, 68, 68, 0.12);
+  color: #dc2626;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.rm-tag-info {
+  background: rgba(2, 132, 199, 0.12);
+  color: #0284c7;
+  border: 1px solid rgba(2, 132, 199, 0.3);
+}
+
+.theme-grandprix-dark .rm-tag-success {
+  color: #2ecc71;
+}
+
+.theme-grandprix-dark .rm-tag-warning {
+  color: #f5a623;
+}
+
+.theme-grandprix-dark .rm-tag-danger {
+  color: #ef4444;
+}
+
+.theme-grandprix-dark .rm-tag-info {
+  color: #38bdf8;
+}
+
+/* ── Tables ── */
+.rm-table-wrapper {
+  background: var(--clr-bg-card);
+  border: 1px solid var(--clr-border-subtle);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.rm-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  font-feature-settings: 'tnum' 1;
+}
+
+.rm-table th {
+  background: var(--clr-bg-primary);
+  padding: 10px 14px;
+  text-align: left;
+  font-family: var(--font-heading);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--clr-text-secondary);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--clr-border-subtle);
+  font-weight: 700;
+}
+
+.rm-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--clr-border-subtle);
+}
+
+.rm-table tr:hover {
+  background: var(--clr-blue-tint);
+}
+
+.theme-grandprix-dark .rm-table th {
+  background: var(--clr-bg-surface);
+  color: var(--clr-text-secondary);
+}
+
+.theme-grandprix-dark .rm-table tr:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* ── Live Race Room Components ── */
+.rm-race-banner {
+  background: var(--clr-bg-card);
+  border: 1px solid var(--clr-border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow-card);
+}
+
+.rm-flag-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.rm-flag-green {
+  background: rgba(46, 204, 113, 0.14);
+  color: #16a34a;
+  border: 1px solid rgba(46, 204, 113, 0.4);
+}
+
+.rm-flag-yellow {
+  background: rgba(245, 166, 35, 0.14);
+  color: #d97706;
+  border: 1px solid rgba(245, 166, 35, 0.45);
+}
+
+.rm-flag-double-yellow {
+  background: rgba(245, 166, 35, 0.2);
+  color: #b45309;
+  border: 2px solid #f5a623;
+}
+
+.rm-flag-vsc {
+  background: rgba(217, 119, 6, 0.14);
+  color: #b45309;
+  border: 1px solid rgba(217, 119, 6, 0.4);
+}
+
+.rm-flag-sc {
+  background: rgba(239, 68, 68, 0.14);
+  color: #dc2626;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.rm-flag-red {
+  background: rgba(220, 38, 38, 0.2);
+  color: #dc2626;
+  border: 2px solid #dc2626;
+  font-weight: 800;
+}
+
+.theme-grandprix-dark .rm-flag-green {
+  color: #2ecc71;
+}
+
+.theme-grandprix-dark .rm-flag-yellow {
+  color: #f5a623;
+}
+
+.theme-grandprix-dark .rm-flag-double-yellow {
+  color: #ffc95a;
+  border-color: #ffc95a;
+}
+
+.theme-grandprix-dark .rm-flag-vsc {
+  color: #f5a623;
+}
+
+.theme-grandprix-dark .rm-flag-sc {
+  color: #ef4444;
+}
+
+.theme-grandprix-dark .rm-flag-red {
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
+/* ── Circuit Card Grid ── */
+.rm-circuit-card {
+  background: var(--clr-bg-card);
+  border: 1px solid var(--clr-border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.18s var(--ease-out), box-shadow 0.18s var(--ease-out);
+}
+
+.rm-circuit-card:hover {
+  border-color: var(--clr-blue-primary);
+  background-color: var(--clr-blue-tint);
+}
+
+.theme-grandprix-dark .rm-circuit-card:hover {
+  border-color: var(--clr-amber);
+  background-color: rgba(245, 166, 35, 0.06);
+}
+
+/* ── SVG Technical Icons (Stroke #64748B default agar tidak mendominasi teks) ── */
+.rm-icon {
+  color: var(--clr-icon-default);
+  stroke: currentColor;
+  transition: color 0.18s var(--ease-out);
+}
+
+.rm-btn .rm-icon,
+.rm-btn-primary .rm-icon,
+.rm-btn-danger .rm-icon,
+.rm-btn-ghost:hover .rm-icon,
+.rm-top-navlink.active .rm-icon,
+.rm-top-navlink.active:hover .rm-icon,
+.rm-tab-btn.active .rm-icon,
+.rm-tag .rm-icon,
+.text-accent,
+.text-accent .rm-icon {
+  color: inherit;
+}
+
+.rm-top-navlink:hover .rm-icon {
+  color: var(--clr-blue-primary);
+}
+
+.theme-grandprix-dark .rm-top-navlink.active .rm-icon {
+  color: #0a0c10;
+}
+
+.theme-grandprix-dark .rm-top-navlink:hover .rm-icon {
+  color: var(--clr-amber);
+}
+
+/* ── Form Controls ── */
+.rm-input,
+.rm-select {
+  width: 100%;
+  background: var(--clr-bg-card);
+  border: 1px solid var(--clr-border-default);
+  color: var(--clr-text-primary);
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 14px;
+  transition: border-color 0.18s var(--ease-out);
+}
+
+.rm-input:focus,
+.rm-select:focus {
+  outline: none;
+  border-color: var(--clr-blue-primary);
+}
+
+.theme-grandprix-dark .rm-input,
+.theme-grandprix-dark .rm-select {
+  background: var(--clr-bg-elevated);
+  border-color: var(--clr-border-default);
+  color: var(--clr-white-pure);
+}
+
+.theme-grandprix-dark .rm-input:focus,
+.theme-grandprix-dark .rm-select:focus {
+  border-color: var(--clr-amber);
+}
+

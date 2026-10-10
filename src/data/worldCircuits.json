@@ -1,0 +1,472 @@
+[
+  {
+    "id": "silverstone",
+    "name": "Silverstone Circuit",
+    "country": "United Kingdom",
+    "location": "Northamptonshire, England",
+    "flag": "🇬🇧",
+    "lengthKm": 5.891,
+    "turns": 18,
+    "grade": "FIA Grade 1",
+    "type": "Permanent Road Course",
+    "characteristics": "High Speed, Fast Flowing Corners (Maggotts-Becketts)",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.891, "laps": 52 },
+      { "name": "International Circuit", "lengthKm": 2.979, "laps": 70 },
+      { "name": "National Circuit (Short)", "lengthKm": 2.638, "laps": 75 }
+    ],
+    "lapRecord": "1:27.097 (Max Verstappen, 2020)"
+  },
+  {
+    "id": "monza",
+    "name": "Autodromo Nazionale Monza",
+    "country": "Italy",
+    "location": "Monza, Lombardy",
+    "flag": "🇮🇹",
+    "lengthKm": 5.793,
+    "turns": 11,
+    "grade": "FIA Grade 1",
+    "type": "Temple of Speed",
+    "characteristics": "Ultra High Speed, Heavy Braking Chicanes, Slipstream Battles",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.793, "laps": 53 },
+      { "name": "Junior Circuit (Short)", "lengthKm": 2.405, "laps": 80 }
+    ],
+    "lapRecord": "1:21.046 (Rubens Barrichello, 2004)"
+  },
+  {
+    "id": "spa",
+    "name": "Circuit de Spa-Francorchamps",
+    "country": "Belgium",
+    "location": "Stavelot, Ardennes",
+    "flag": "🇧🇪",
+    "lengthKm": 7.004,
+    "turns": 19,
+    "grade": "FIA Grade 1",
+    "type": "Natural Elevation Road Course",
+    "characteristics": "Legendary Eau Rouge-Raidillon, High Altitude Changes, Unpredictable Weather",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 7.004, "laps": 44 },
+      { "name": "Short Sprint Layout", "lengthKm": 4.100, "laps": 60 }
+    ],
+    "lapRecord": "1:46.286 (Valtteri Bottas, 2018)"
+  },
+  {
+    "id": "monaco",
+    "name": "Circuit de Monaco",
+    "country": "Monaco",
+    "location": "Monte Carlo",
+    "flag": "🇲🇨",
+    "lengthKm": 3.337,
+    "turns": 19,
+    "grade": "FIA Grade 1",
+    "type": "Tight City Street Circuit",
+    "characteristics": "Narrow Armco Barriers, Zero Margin for Error, Low Top Speed",
+    "layouts": [
+      { "name": "Grand Prix Street Circuit", "lengthKm": 3.337, "laps": 78 }
+    ],
+    "lapRecord": "1:12.909 (Lewis Hamilton, 2021)"
+  },
+  {
+    "id": "suzuka",
+    "name": "Suzuka International Racing Course",
+    "country": "Japan",
+    "location": "Suzuka, Mie Prefecture",
+    "flag": "🇯🇵",
+    "lengthKm": 5.807,
+    "turns": 18,
+    "grade": "FIA Grade 1",
+    "type": "Figure-Eight Crossover Circuit",
+    "characteristics": "Iconic S-Curves, 130R Flat-out, Extreme Driver Skill Test",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Figure-8)", "lengthKm": 5.807, "laps": 53 },
+      { "name": "East Circuit (Short)", "lengthKm": 2.243, "laps": 85 },
+      { "name": "West Circuit", "lengthKm": 3.475, "laps": 65 }
+    ],
+    "lapRecord": "1:30.983 (Lewis Hamilton, 2019)"
+  },
+  {
+    "id": "interlagos",
+    "name": "Autódromo José Carlos Pace (Interlagos)",
+    "country": "Brazil",
+    "location": "São Paulo",
+    "flag": "🇧🇷",
+    "lengthKm": 4.309,
+    "turns": 15,
+    "grade": "FIA Grade 1",
+    "type": "Natural Amphitheater Course",
+    "characteristics": "Anti-Clockwise, Senna S, Drama and Sudden Rainstorms",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.309, "laps": 71 }
+    ],
+    "lapRecord": "1:10.540 (Valtteri Bottas, 2018)"
+  },
+  {
+    "id": "redbullring",
+    "name": "Red Bull Ring",
+    "country": "Austria",
+    "location": "Spielberg, Styria",
+    "flag": "🇦🇹",
+    "lengthKm": 4.318,
+    "turns": 10,
+    "grade": "FIA Grade 1",
+    "type": "Alpine Rollercoaster",
+    "characteristics": "Fast 10 Corners, Steep Uphill Run into Turn 3, Frequent Overtakes",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.318, "laps": 71 },
+      { "name": "South Circuit (Short)", "lengthKm": 2.400, "laps": 85 }
+    ],
+    "lapRecord": "1:05.619 (Carlos Sainz, 2020)"
+  },
+  {
+    "id": "zandvoort",
+    "name": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "location": "Zandvoort, North Holland",
+    "flag": "🇳🇱",
+    "lengthKm": 4.259,
+    "turns": 14,
+    "grade": "FIA Grade 1",
+    "type": "Coastal Dune Track",
+    "characteristics": "Steep 18-degree Banking Corners (Tarzan & Arie Luyendyk), Seaside Wind",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Banked)", "lengthKm": 4.259, "laps": 72 },
+      { "name": "Club Circuit", "lengthKm": 2.520, "laps": 82 }
+    ],
+    "lapRecord": "1:11.097 (Lewis Hamilton, 2021)"
+  },
+  {
+    "id": "catalunya",
+    "name": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "location": "Montmeló, Catalonia",
+    "flag": "🇪🇸",
+    "lengthKm": 4.657,
+    "turns": 14,
+    "grade": "FIA Grade 1",
+    "type": "Ultimate Aerodynamic Benchmark",
+    "characteristics": "Long Main Straight, Technical Middle Sector, High Tyre Degradation",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.657, "laps": 66 },
+      { "name": "National Circuit", "lengthKm": 2.977, "laps": 78 }
+    ],
+    "lapRecord": "1:16.330 (Max Verstappen, 2023)"
+  },
+  {
+    "id": "cota",
+    "name": "Circuit of the Americas (COTA)",
+    "country": "United States",
+    "location": "Austin, Texas",
+    "flag": "🇺🇸",
+    "lengthKm": 5.513,
+    "turns": 20,
+    "grade": "FIA Grade 1",
+    "type": "Purpose-built F1 Facility",
+    "characteristics": "Blind Turn 1 Hill Ascent, Maggotts-inspired Esses, Bumpy Braking Zones",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.513, "laps": 56 },
+      { "name": "National Circuit (Short)", "lengthKm": 3.700, "laps": 70 }
+    ],
+    "lapRecord": "1:36.169 (Charles Leclerc, 2019)"
+  },
+  {
+    "id": "gilles_villeneuve",
+    "name": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "location": "Montreal, Quebec",
+    "flag": "🇨🇦",
+    "lengthKm": 4.361,
+    "turns": 14,
+    "grade": "FIA Grade 1",
+    "type": "Semi-Permanent Island Park Track",
+    "characteristics": "Stop-and-Go Chicanes, Infamous 'Wall of Champions', High Brake Wear",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.361, "laps": 70 }
+    ],
+    "lapRecord": "1:13.078 (Valtteri Bottas, 2019)"
+  },
+  {
+    "id": "marinabay",
+    "name": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "location": "Downtown Core, Singapore",
+    "flag": "🇸🇬",
+    "lengthKm": 4.940,
+    "turns": 19,
+    "grade": "FIA Grade 1",
+    "type": "Night Street Circuit",
+    "characteristics": "Oppressive Tropical Humidity, Floodlit Night Spectacle, 100% Safety Car Record",
+    "layouts": [
+      { "name": "Grand Prix Night Circuit", "lengthKm": 4.940, "laps": 62 }
+    ],
+    "lapRecord": "1:35.867 (Lewis Hamilton, 2023)"
+  },
+  {
+    "id": "yasmarina",
+    "name": "Yas Marina Circuit",
+    "country": "United Arab Emirates",
+    "location": "Abu Dhabi",
+    "flag": "🇦🇪",
+    "lengthKm": 5.281,
+    "turns": 16,
+    "grade": "FIA Grade 1",
+    "type": "Twilight Super-Facility",
+    "characteristics": "Day-into-Night Race, Marina Hotel Flyover, Pit Exit Tunnel",
+    "layouts": [
+      { "name": "Grand Prix Twilight Circuit", "lengthKm": 5.281, "laps": 58 },
+      { "name": "Corkscrew Layout (Short)", "lengthKm": 3.130, "laps": 75 }
+    ],
+    "lapRecord": "1:26.103 (Max Verstappen, 2021)"
+  },
+  {
+    "id": "bahrain",
+    "name": "Bahrain International Circuit",
+    "country": "Bahrain",
+    "location": "Sakhir Desert",
+    "flag": "🇧🇭",
+    "lengthKm": 5.412,
+    "turns": 15,
+    "grade": "FIA Grade 1",
+    "type": "Desert Floodlit Venue",
+    "characteristics": "Abrasive Asphalt, 4 Heavy Braking Zones, Cool Desert Night Temperatures",
+    "layouts": [
+      { "name": "Grand Prix Track (Full)", "lengthKm": 5.412, "laps": 57 },
+      { "name": "Outer Track (Ultra Fast)", "lengthKm": 3.543, "laps": 87 },
+      { "name": "Paddock Circuit (Short)", "lengthKm": 3.664, "laps": 75 }
+    ],
+    "lapRecord": "1:31.447 (Pedro de la Rosa, 2005)"
+  },
+  {
+    "id": "jeddah",
+    "name": "Jeddah Corniche Circuit",
+    "country": "Saudi Arabia",
+    "location": "Jeddah Waterfront",
+    "flag": "🇸🇦",
+    "lengthKm": 6.174,
+    "turns": 27,
+    "grade": "FIA Grade 1",
+    "type": "Ultra High-Speed Street Circuit",
+    "characteristics": "Average Speed >250 km/h, 27 Blind Corners, Concrete Barriers Right at Track Edge",
+    "layouts": [
+      { "name": "Full High-Speed Street Track", "lengthKm": 6.174, "laps": 50 }
+    ],
+    "lapRecord": "1:30.734 (Lewis Hamilton, 2021)"
+  },
+  {
+    "id": "lusail",
+    "name": "Lusail International Circuit",
+    "country": "Qatar",
+    "location": "Lusail, Al Daayen",
+    "flag": "🇶🇦",
+    "lengthKm": 5.419,
+    "turns": 16,
+    "grade": "FIA Grade 1",
+    "type": "Motorcycle & Car Oasis",
+    "characteristics": "Non-stop Medium-High Speed Corners, Brutal High G-Force Endurance",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.419, "laps": 57 }
+    ],
+    "lapRecord": "1:24.319 (Max Verstappen, 2023)"
+  },
+  {
+    "id": "mexico",
+    "name": "Autódromo Hermanos Rodríguez",
+    "country": "Mexico",
+    "location": "Mexico City",
+    "flag": "🇲🇽",
+    "lengthKm": 4.304,
+    "turns": 17,
+    "grade": "FIA Grade 1",
+    "type": "High Altitude Park Track",
+    "characteristics": "2,200m Thin Air Altitude, Foro Sol Baseball Stadium Section, Ultra-Long Straight",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Stadium)", "lengthKm": 4.304, "laps": 71 }
+    ],
+    "lapRecord": "1:17.774 (Valtteri Bottas, 2021)"
+  },
+  {
+    "id": "albertpark",
+    "name": "Albert Park Circuit",
+    "country": "Australia",
+    "location": "Melbourne, Victoria",
+    "flag": "🇦🇺",
+    "lengthKm": 5.278,
+    "turns": 14,
+    "grade": "FIA Grade 1",
+    "type": "Semi-Street Lakeside Course",
+    "characteristics": "Fast Sweeping Lakeside Chicane, High Grip Evolution across Weekend",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.278, "laps": 58 }
+    ],
+    "lapRecord": "1:19.813 (Charles Leclerc, 2024)"
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai International Circuit",
+    "country": "China",
+    "location": "Jiading, Shanghai",
+    "flag": "🇨🇳",
+    "lengthKm": 5.451,
+    "turns": 16,
+    "grade": "FIA Grade 1",
+    "type": "Modern Architectural Marvel",
+    "characteristics": "Shaped like Chinese 'Shang' (上) character, Endless Snail Turn 1-2, 1.2km Straight",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.451, "laps": 56 },
+      { "name": "Intermediate Layout", "lengthKm": 3.025, "laps": 72 }
+    ],
+    "lapRecord": "1:32.238 (Michael Schumacher, 2004)"
+  },
+  {
+    "id": "imola",
+    "name": "Autodromo Internazionale Enzo e Dino Ferrari (Imola)",
+    "country": "Italy",
+    "location": "Imola, Emilia-Romagna",
+    "flag": "🇮🇹",
+    "lengthKm": 4.909,
+    "turns": 19,
+    "grade": "FIA Grade 1",
+    "type": "Old-School Italian Thrill",
+    "characteristics": "Anti-Clockwise, Piratella & Acque Minerali, Aggressive Kerb Riding",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.909, "laps": 63 }
+    ],
+    "lapRecord": "1:15.484 (Lewis Hamilton, 2020)"
+  },
+  {
+    "id": "nurburgring",
+    "name": "Nürburgring GP-Strecke & Nordschleife",
+    "country": "Germany",
+    "location": "Nürburg, Eifel",
+    "flag": "🇩🇪",
+    "lengthKm": 5.148,
+    "turns": 15,
+    "grade": "FIA Grade 1",
+    "type": "Historic Eifel Cathedral",
+    "characteristics": "Cold Microclimate, Schumacher S, Green Hell Endurance Heritage",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.148, "laps": 60 },
+      { "name": "Combined 24h Nordschleife", "lengthKm": 25.378, "laps": 15 },
+      { "name": "Müllenbachschleife (Short)", "lengthKm": 1.489, "laps": 90 }
+    ],
+    "lapRecord": "1:28.139 (Max Verstappen, 2020)"
+  },
+  {
+    "id": "lemans",
+    "name": "Circuit de la Sarthe (Le Mans)",
+    "country": "France",
+    "location": "Le Mans, Pays de la Loire",
+    "flag": "🇫🇷",
+    "lengthKm": 13.626,
+    "turns": 38,
+    "grade": "FIA Grade 1 / Grade 2",
+    "type": "Legendary 24h Endurance Circuit",
+    "characteristics": "Mulsanne Straight, Porsche Curves, Mixture of Public Roads and Permanent Track",
+    "layouts": [
+      { "name": "24 Heures Circuit (Full)", "lengthKm": 13.626, "laps": 25 },
+      { "name": "Bugatti Permanent Circuit (Short)", "lengthKm": 4.185, "laps": 65 }
+    ],
+    "lapRecord": "3:17.297 (Mike Conway, Toyota TS050, 2019)"
+  },
+  {
+    "id": "bathurst",
+    "name": "Mount Panorama Circuit (Bathurst)",
+    "country": "Australia",
+    "location": "Bathurst, New South Wales",
+    "flag": "🇦🇺",
+    "lengthKm": 6.213,
+    "turns": 23,
+    "grade": "FIA Grade 2",
+    "type": "Mountain Public Road Course",
+    "characteristics": "174m Vertical Climb, Cutting, Skyline & The Dipper, Zero Runoff",
+    "layouts": [
+      { "name": "Full Mountain Course", "lengthKm": 6.213, "laps": 45 }
+    ],
+    "lapRecord": "1:56.605 (Christopher Mies, Audi R8 GT3, 2018)"
+  },
+  {
+    "id": "fuji",
+    "name": "Fuji Speedway",
+    "country": "Japan",
+    "location": "Oyama, Shizuoka",
+    "flag": "🇯🇵",
+    "lengthKm": 4.563,
+    "turns": 16,
+    "grade": "FIA Grade 1",
+    "type": "Mount Fuji View Track",
+    "characteristics": "Colossal 1.475km Main Straight, Tight Technical Final Sector 3",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.563, "laps": 67 },
+      { "name": "Short Layout", "lengthKm": 3.600, "laps": 75 }
+    ],
+    "lapRecord": "1:18.426 (Felipe Massa, 2008)"
+  },
+  {
+    "id": "portimao",
+    "name": "Autódromo Internacional do Algarve (Portimão)",
+    "country": "Portugal",
+    "location": "Portimão, Algarve",
+    "flag": "🇵🇹",
+    "lengthKm": 4.653,
+    "turns": 15,
+    "grade": "FIA Grade 1",
+    "type": "Modern Rollercoaster Course",
+    "characteristics": "Blind Crest Drops, Craig Breen-style Elevation Shifts, Thrilling Final Corner",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.653, "laps": 66 },
+      { "name": "Motorcycle Layout", "lengthKm": 4.592, "laps": 68 }
+    ],
+    "lapRecord": "1:18.750 (Lewis Hamilton, 2020)"
+  },
+  {
+    "id": "sepang",
+    "name": "Sepang International Circuit",
+    "country": "Malaysia",
+    "location": "Sepang, Selangor",
+    "flag": "🇲🇾",
+    "lengthKm": 5.543,
+    "turns": 15,
+    "grade": "FIA Grade 1",
+    "type": "Hermann Tilke Benchmark Masterpiece",
+    "characteristics": "Twin Back-to-Back Straights, Extreme Tropical Heat & Monsoon Downpours",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.543, "laps": 56 },
+      { "name": "North Circuit (Short)", "lengthKm": 2.706, "laps": 75 },
+      { "name": "South Circuit", "lengthKm": 2.609, "laps": 75 }
+    ],
+    "lapRecord": "1:34.080 (Sebastian Vettel, 2017)"
+  },
+  {
+    "id": "kyalami",
+    "name": "Kyalami Grand Prix Circuit",
+    "country": "South Africa",
+    "location": "Midrand, Gauteng",
+    "flag": "🇿🇦",
+    "lengthKm": 4.529,
+    "turns": 16,
+    "grade": "FIA Grade 2",
+    "type": "Highveld African Classic",
+    "characteristics": "1,500m Altitude, Undulating Sunset Corner, Historic Heritage of African Racing",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 4.529, "laps": 65 }
+    ],
+    "lapRecord": "1:38.021 (Nick Catsburg, BMW M6 GT3, 2020)"
+  },
+  {
+    "id": "mugello",
+    "name": "Autodromo Internazionale del Mugello",
+    "country": "Italy",
+    "location": "Scarperia e San Piero, Tuscany",
+    "flag": "🇮🇹",
+    "lengthKm": 5.245,
+    "turns": 15,
+    "grade": "FIA Grade 1",
+    "type": "Tuscan High-G Cathedral",
+    "characteristics": "Arrabbiata 1 & 2 Flat-Out Turns, Constant Elevation Surges, Flowing Fast Sweepers",
+    "layouts": [
+      { "name": "Grand Prix Circuit (Full)", "lengthKm": 5.245, "laps": 59 },
+      { "name": "Short Layout", "lengthKm": 2.500, "laps": 80 }
+    ],
+    "lapRecord": "1:18.833 (Lewis Hamilton, 2020)"
+  }
+]

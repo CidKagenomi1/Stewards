@@ -1,0 +1,45 @@
+[
+  {
+    "id": "template_blank",
+    "name": "Blank Canvas",
+    "description": "Start with a completely empty plot. Total creative freedom.",
+    "biome": "flat",
+    "thumbnail": "template_blank",
+    "nodes": [],
+    "isTemplate": true
+  },
+  {
+    "id": "template_oval",
+    "name": "Classic Oval",
+    "description": "Simple high-speed oval layout. Great for learning the editor.",
+    "biome": "flat",
+    "thumbnail": "template_oval",
+    "nodes": [
+      { "x": 300, "y": 200, "type": "smooth" },
+      { "x": 700, "y": 200, "type": "smooth" },
+      { "x": 800, "y": 400, "type": "smooth" },
+      { "x": 700, "y": 600, "type": "smooth" },
+      { "x": 300, "y": 600, "type": "smooth" },
+      { "x": 200, "y": 400, "type": "smooth" }
+    ],
+    "isTemplate": true
+  },
+  {
+    "id": "template_street",
+    "name": "Street Circuit Starter",
+    "description": "Tight city block layout inspired by Monaco and Singapore.",
+    "biome": "city",
+    "thumbnail": "template_street",
+    "nodes": [
+      { "x": 200, "y": 150, "type": "sharp" },
+      { "x": 700, "y": 150, "type": "sharp" },
+      { "x": 700, "y": 300, "type": "sharp" },
+      { "x": 500, "y": 300, "type": "sharp" },
+      { "x": 500, "y": 500, "type": "sharp" },
+      { "x": 700, "y": 500, "type": "sharp" },
+      { "x": 700, "y": 650, "type": "sharp" },
+      { "x": 200, "y": 650, "type": "sharp" }
+    ],
+    "isTemplate": true
+  }
+]

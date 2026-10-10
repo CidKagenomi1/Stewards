@@ -1,0 +1,2201 @@
+[
+  {
+    "id": "drv_001",
+    "name": "Liam Voss",
+    "nationality": "🇬🇧",
+    "age": 22,
+    "background": {
+      "primary": "F2",
+      "seasons": 3,
+      "bestChampionshipFinish": 2,
+      "wins": 4,
+      "podiums": 11,
+      "poles": 2,
+      "fastestLaps": 3
+    },
+    "attributes": {
+      "pace": 88,
+      "consistency": 82,
+      "racecraft": 79,
+      "tyreManagement": 85,
+      "feedbackQuality": 78,
+      "adaptability": 81,
+      "wetWeather": 76,
+      "starts": 83
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.15
+    },
+    "contract": {
+      "salaryExpectation": 850000,
+      "instructorPointPotential": 72,
+      "marketValue": 1200000
+    },
+    "personality": ["analytical", "calm_under_pressure"],
+    "bio": "Ex-F2 race winner with strong sim background. Known for precise technical feedback."
+  },
+  {
+    "id": "drv_002",
+    "name": "Akira Tsuchiya",
+    "nationality": "🇯🇵",
+    "age": 24,
+    "background": {
+      "primary": "F1",
+      "seasons": 2,
+      "bestChampionshipFinish": 6,
+      "wins": 1,
+      "podiums": 3,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 95,
+      "consistency": 90,
+      "racecraft": 92,
+      "tyreManagement": 88,
+      "feedbackQuality": 95,
+      "adaptability": 90,
+      "wetWeather": 88,
+      "starts": 85
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 26,
+      "learningRate": 0.95
+    },
+    "contract": {
+      "salaryExpectation": 2800000,
+      "instructorPointPotential": 88,
+      "marketValue": 4500000
+    },
+    "personality": ["competitive", "technical"],
+    "bio": "Former F1 test driver with 2 Grand Prix starts. Exceptional feedback quality, especially on aerodynamics."
+  },
+  {
+    "id": "drv_003",
+    "name": "Elena Rojas",
+    "nationality": "🇪🇸",
+    "age": 20,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 3,
+      "wins": 2,
+      "podiums": 6,
+      "poles": 3,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 82,
+      "consistency": 78,
+      "racecraft": 81,
+      "tyreManagement": 76,
+      "feedbackQuality": 79,
+      "adaptability": 80,
+      "wetWeather": 74,
+      "starts": 82
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 1.10
+    },
+    "contract": {
+      "salaryExpectation": 650000,
+      "instructorPointPotential": 65,
+      "marketValue": 950000
+    },
+    "personality": ["aggressive", "learning"],
+    "bio": "Talented young Spaniard from F3. Quick learner with natural pace."
+  },
+  {
+    "id": "drv_004",
+    "name": "Marcus Chen",
+    "nationality": "🇺🇸",
+    "age": 26,
+    "background": {
+      "primary": "RacingSim",
+      "racingSimExperience": true,
+      "simRating": 9400,
+      "seasons": 5
+    },
+    "attributes": {
+      "pace": 90,
+      "consistency": 88,
+      "racecraft": 85,
+      "tyreManagement": 82,
+      "feedbackQuality": 92,
+      "adaptability": 89,
+      "wetWeather": 80,
+      "starts": 87
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.05
+    },
+    "contract": {
+      "salaryExpectation": 1200000,
+      "instructorPointPotential": 85,
+      "marketValue": 2100000
+    },
+    "personality": ["analytical", "data_driven"],
+    "bio": "Pro racing sim driver transitioning to real cars. Exceptional at finding limits and providing feedback."
+  },
+  {
+    "id": "drv_005",
+    "name": "Sofia Ricci",
+    "nationality": "🇮🇹",
+    "age": 23,
+    "background": {
+      "primary": "GT3",
+      "seasons": 4,
+      "bestChampionshipFinish": 1,
+      "wins": 8,
+      "podiums": 15,
+      "poles": 6,
+      "fastestLaps": 7
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 92,
+      "racecraft": 88,
+      "tyreManagement": 93,
+      "feedbackQuality": 84,
+      "adaptability": 86,
+      "wetWeather": 85,
+      "starts": 88
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 950000,
+      "instructorPointPotential": 78,
+      "marketValue": 1800000
+    },
+    "personality": ["calm", "methodical"],
+    "bio": "Multiple GT3 champion with excellent tyre management. Known for consistent race pace."
+  },
+  {
+    "id": "drv_006",
+    "name": "Javier Morales",
+    "nationality": "🇲🇽",
+    "age": 21,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 4,
+      "wins": 1,
+      "podiums": 4,
+      "poles": 1,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 80,
+      "racecraft": 77,
+      "tyreManagement": 79,
+      "feedbackQuality": 76,
+      "adaptability": 83,
+      "wetWeather": 72,
+      "starts": 80
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.20
+    },
+    "contract": {
+      "salaryExpectation": 700000,
+      "instructorPointPotential": 68,
+      "marketValue": 1100000
+    },
+    "personality": ["determined", "improving"],
+    "bio": "Promising Mexican talent from F2. Still developing but shows huge potential."
+  },
+  {
+    "id": "drv_007",
+    "name": "Yuki Tanaka",
+    "nationality": "🇯🇵",
+    "age": 28,
+    "background": {
+      "primary": "Formula E",
+      "seasons": 4,
+      "bestChampionshipFinish": 2,
+      "wins": 2,
+      "podiums": 9,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 88,
+      "consistency": 90,
+      "racecraft": 86,
+      "tyreManagement": 94,
+      "feedbackQuality": 88,
+      "adaptability": 91,
+      "wetWeather": 82,
+      "starts": 84
+    },
+    "development": {
+      "curve": "veteran_decline",
+      "peakAge": 25,
+      "learningRate": 0.85
+    },
+    "contract": {
+      "salaryExpectation": 1100000,
+      "instructorPointPotential": 82,
+      "marketValue": 1600000
+    },
+    "personality": ["experienced", "tactical"],
+    "bio": "Former Formula E points leader. Excellent energy management and wet weather skills."
+  },
+  {
+    "id": "drv_008",
+    "name": "Nina Petrov",
+    "nationality": "🇷🇺",
+    "age": 19,
+    "background": {
+      "primary": "Karting",
+      "seasons": 3,
+      "bestChampionshipFinish": 1,
+      "wins": 5,
+      "podiums": 12,
+      "poles": 4,
+      "fastestLaps": 3
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 76,
+      "racecraft": 88,
+      "tyreManagement": 72,
+      "feedbackQuality": 75,
+      "adaptability": 79,
+      "wetWeather": 68,
+      "starts": 85
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 24,
+      "learningRate": 1.25
+    },
+    "contract": {
+      "salaryExpectation": 500000,
+      "instructorPointPotential": 60,
+      "marketValue": 750000
+    },
+    "personality": ["aggressive", "raw_talent"],
+    "bio": "Karting prodigy making the jump to single-seaters. High racecraft, needs consistency."
+  },
+  {
+    "id": "drv_009",
+    "name": "Carlos Mendoza",
+    "nationality": "🇲🇽",
+    "age": 25,
+    "background": {
+      "primary": "GT3",
+      "seasons": 3,
+      "bestChampionshipFinish": 2,
+      "wins": 4,
+      "podiums": 10,
+      "poles": 3,
+      "fastestLaps": 4
+    },
+    "attributes": {
+      "pace": 87,
+      "consistency": 89,
+      "racecraft": 84,
+      "tyreManagement": 88,
+      "feedbackQuality": 82,
+      "adaptability": 85,
+      "wetWeather": 84,
+      "starts": 86
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 1050000,
+      "instructorPointPotential": 76,
+      "marketValue": 1950000
+    },
+    "personality": ["smooth", "reliable"],
+    "bio": "Smooth operator in endurance racing. Strong in all conditions."
+  },
+  {
+    "id": "drv_010",
+    "name": "Anika Schmidt",
+    "nationality": "🇩🇪",
+    "age": 23,
+    "background": {
+      "primary": "F3",
+      "seasons": 3,
+      "bestChampionshipFinish": 2,
+      "wins": 3,
+      "podiums": 8,
+      "poles": 4,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 84,
+      "racecraft": 82,
+      "tyreManagement": 80,
+      "feedbackQuality": 83,
+      "adaptability": 84,
+      "wetWeather": 81,
+      "starts": 82
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.08
+    },
+    "contract": {
+      "salaryExpectation": 750000,
+      "instructorPointPotential": 70,
+      "marketValue": 1350000
+    },
+    "personality": ["methodical", "precise"],
+    "bio": "German F3 graduate with excellent technical feedback. Methodical approach to setup."
+  },
+  {
+    "id": "drv_011",
+    "name": "Oscar Piastri",
+    "nationality": "🇦🇹",
+    "age": 23,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 1,
+      "wins": 3,
+      "podiums": 7,
+      "poles": 4,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 91,
+      "consistency": 88,
+      "racecraft": 90,
+      "tyreManagement": 86,
+      "feedbackQuality": 89,
+      "adaptability": 87,
+      "wetWeather": 85,
+      "starts": 88
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.05
+    },
+    "contract": {
+      "salaryExpectation": 1400000,
+      "instructorPointPotential": 80,
+      "marketValue": 2800000
+    },
+    "personality": ["calm", "analytical"],
+    "bio": "F2 Champion with exceptional racecraft. Quiet but deadly on Sunday."
+  },
+  {
+    "id": "drv_012",
+    "name": "Max Verstappen",
+    "nationality": "🇳🇱",
+    "age": 26,
+    "background": {
+      "primary": "F1",
+      "seasons": 5,
+      "bestChampionshipFinish": 1,
+      "wins": 12,
+      "podiums": 28,
+      "poles": 15,
+      "fastestLaps": 10
+    },
+    "attributes": {
+      "pace": 98,
+      "consistency": 94,
+      "racecraft": 95,
+      "tyreManagement": 90,
+      "feedbackQuality": 96,
+      "adaptability": 92,
+      "wetWeather": 90,
+      "starts": 98
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 25,
+      "learningRate": 0.90
+    },
+    "contract": {
+      "salaryExpectation": 4500000,
+      "instructorPointPotential": 95,
+      "marketValue": 12000000
+    },
+    "personality": ["aggressive", "champion_mindset"],
+    "bio": "Multiple World Champion. Pushes car to absolute limits with incredible feedback."
+  },
+  {
+    "id": "drv_013",
+    "name": "Lewis Hamilton",
+    "nationality": "🇬🇧",
+    "age": 39,
+    "background": {
+      "primary": "F1",
+      "seasons": 10,
+      "bestChampionshipFinish": 1,
+      "wins": 103,
+      "podiums": 195,
+      "poles": 104,
+      "fastestLaps": 61
+    },
+    "attributes": {
+      "pace": 96,
+      "consistency": 96,
+      "racecraft": 94,
+      "tyreManagement": 95,
+      "feedbackQuality": 98,
+      "adaptability": 93,
+      "wetWeather": 94,
+      "starts": 95
+    },
+    "development": {
+      "curve": "veteran_decline",
+      "peakAge": 28,
+      "learningRate": 0.85
+    },
+    "contract": {
+      "salaryExpectation": 5200000,
+      "instructorPointPotential": 90,
+      "marketValue": 8500000
+    },
+    "personality": ["calm", "technical"],
+    "bio": "Legendary driver with unparalleled feedback quality. Still competitive despite age."
+  },
+  {
+    "id": "drv_014",
+    "name": "Charles Leclerc",
+    "nationality": "🇲🇨",
+    "age": 26,
+    "background": {
+      "primary": "F1",
+      "seasons": 4,
+      "bestChampionshipFinish": 2,
+      "wins": 2,
+      "podiums": 12,
+      "poles": 6,
+      "fastestLaps": 4
+    },
+    "attributes": {
+      "pace": 94,
+      "consistency": 89,
+      "racecraft": 91,
+      "tyreManagement": 87,
+      "feedbackQuality": 94,
+      "adaptability": 90,
+      "wetWeather": 86,
+      "starts": 91
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 3800000,
+      "instructorPointPotential": 86,
+      "marketValue": 9500000
+    },
+    "personality": ["technical", "focused"],
+    "bio": "Monaco racer with exceptional car setup skills. Precise and methodical."
+  },
+  {
+    "id": "drv_015",
+    "name": "Fernando Alonso",
+    "nationality": "🇪🇸",
+    "age": 43,
+    "background": {
+      "primary": "F1",
+      "seasons": 21,
+      "bestChampionshipFinish": 1,
+      "wins": 32,
+      "podiums": 108,
+      "poles": 73,
+      "fastestLaps": 36
+    },
+    "attributes": {
+      "pace": 92,
+      "consistency": 95,
+      "racecraft": 97,
+      "tyreManagement": 94,
+      "feedbackQuality": 97,
+      "adaptability": 96,
+      "wetWeather": 92,
+      "starts": 93
+    },
+    "development": {
+      "curve": "veteran_decline",
+      "peakAge": 28,
+      "learningRate": 0.75
+    },
+    "contract": {
+      "salaryExpectation": 2500000,
+      "instructorPointPotential": 88,
+      "marketValue": 5200000
+    },
+    "personality": ["experienced", "tactical"],
+    "bio": "Veteran champion with incredible racecraft and adaptability. Still among the best."
+  },
+  {
+    "id": "drv_016",
+    "name": "Lando Norris",
+    "nationality": "🇬🇧",
+    "age": 24,
+    "background": {
+      "primary": "F1",
+      "seasons": 3,
+      "bestChampionshipFinish": 6,
+      "wins": 0,
+      "podiums": 4,
+      "poles": 2,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 90,
+      "consistency": 87,
+      "racecraft": 85,
+      "tyreManagement": 84,
+      "feedbackQuality": 92,
+      "adaptability": 89,
+      "wetWeather": 83,
+      "starts": 86
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.10
+    },
+    "contract": {
+      "salaryExpectation": 1800000,
+      "instructorPointPotential": 78,
+      "marketValue": 4200000
+    },
+    "personality": ["analytical", "social_media"],
+    "bio": "McLaren star with exceptional feedback quality. Big personality and technical mind."
+  },
+  {
+    "id": "drv_017",
+    "name": "George Russell",
+    "nationality": "🇬🇧",
+    "age": 27,
+    "background": {
+      "primary": "F1",
+      "seasons": 5,
+      "bestChampionshipFinish": 2,
+      "wins": 2,
+      "podiums": 14,
+      "poles": 7,
+      "fastestLaps": 5
+    },
+    "attributes": {
+      "pace": 93,
+      "consistency": 92,
+      "racecraft": 90,
+      "tyreManagement": 91,
+      "feedbackQuality": 94,
+      "adaptability": 91,
+      "wetWeather": 90,
+      "starts": 89
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 2200000,
+      "instructorPointPotential": 84,
+      "marketValue": 6800000
+    },
+    "personality": ["technical", "calm"],
+    "bio": "Former Mercedes rookie with strong technical feedback. Excellent in all conditions."
+  },
+  {
+    "id": "drv_018",
+    "name": "Carlos Sainz Jr.",
+    "nationality": "🇪🇸",
+    "age": 25,
+    "background": {
+      "primary": "F1",
+      "seasons": 4,
+      "bestChampionshipFinish": 3,
+      "wins": 1,
+      "podiums": 9,
+      "poles": 4,
+      "fastestLaps": 3
+    },
+    "attributes": {
+      "pace": 91,
+      "consistency": 89,
+      "racecraft": 88,
+      "tyreManagement": 89,
+      "feedbackQuality": 91,
+      "adaptability": 90,
+      "wetWeather": 87,
+      "starts": 88
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 1.05
+    },
+    "contract": {
+      "salaryExpectation": 2500000,
+      "instructorPointPotential": 82,
+      "marketValue": 7200000
+    },
+    "personality": ["calm", "reliable"],
+    "bio": "Ferrari driver with excellent wet weather skills and consistent pace."
+  },
+  {
+    "id": "drv_019",
+    "name": "Pierre Gasly",
+    "nationality": "🇫🇷",
+    "age": 26,
+    "background": {
+      "primary": "F1",
+      "seasons": 5,
+      "bestChampionshipFinish": 4,
+      "wins": 1,
+      "podiums": 8,
+      "poles": 3,
+      "fastestLaps": 4
+    },
+    "attributes": {
+      "pace": 88,
+      "consistency": 85,
+      "racecraft": 86,
+      "tyreManagement": 84,
+      "feedbackQuality": 88,
+      "adaptability": 87,
+      "wetWeather": 85,
+      "starts": 85
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.05
+    },
+    "contract": {
+      "salaryExpectation": 1500000,
+      "instructorPointPotential": 75,
+      "marketValue": 4800000
+    },
+    "personality": ["technical", "independent"],
+    "bio": "Alpine star with strong technical feedback. Known for finding extra pace."
+  },
+  {
+    "id": "drv_020",
+    "name": "Yuki Tsunoda",
+    "nationality": "🇯🇵",
+    "age": 23,
+    "background": {
+      "primary": "F2",
+      "seasons": 3,
+      "bestChampionshipFinish": 2,
+      "wins": 2,
+      "podiums": 8,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 87,
+      "consistency": 81,
+      "racecraft": 83,
+      "tyreManagement": 79,
+      "feedbackQuality": 82,
+      "adaptability": 85,
+      "wetWeather": 78,
+      "starts": 84
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.15
+    },
+    "contract": {
+      "salaryExpectation": 900000,
+      "instructorPointPotential": 70,
+      "marketValue": 1800000
+    },
+    "personality": ["aggressive", "improving"],
+    "bio": "RB driver with fiery temperament. Getting stronger every season."
+  },
+  {
+    "id": "drv_021",
+    "name": "Oscar Piastri",
+    "nationality": "🇦🇹",
+    "age": 23,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 1,
+      "wins": 3,
+      "podiums": 7,
+      "poles": 4,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 91,
+      "consistency": 88,
+      "racecraft": 90,
+      "tyreManagement": 86,
+      "feedbackQuality": 89,
+      "adaptability": 87,
+      "wetWeather": 85,
+      "starts": 88
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.05
+    },
+    "contract": {
+      "salaryExpectation": 1400000,
+      "instructorPointPotential": 80,
+      "marketValue": 2800000
+    },
+    "personality": ["calm", "analytical"],
+    "bio": "F2 Champion with exceptional racecraft. Quiet but deadly on Sunday."
+  },
+  {
+    "id": "drv_022",
+    "name": "Lance Stroll",
+    "nationality": "🇨🇦",
+    "age": 27,
+    "background": {
+      "primary": "F1",
+      "seasons": 6,
+      "bestChampionshipFinish": 8,
+      "wins": 0,
+      "podiums": 3,
+      "poles": 1,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 82,
+      "racecraft": 80,
+      "tyreManagement": 81,
+      "feedbackQuality": 84,
+      "adaptability": 83,
+      "wetWeather": 78,
+      "starts": 82
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 1200000,
+      "instructorPointPotential": 68,
+      "marketValue": 3500000
+    },
+    "personality": ["methodical", "technical"],
+    "bio": "Aston Martin driver with solid technical feedback. Consistent points scorer."
+  },
+  {
+    "id": "drv_023",
+    "name": "Valtteri Bottas",
+    "nationality": "🇫🇮",
+    "age": 36,
+    "background": {
+      "primary": "F1",
+      "seasons": 11,
+      "bestChampionshipFinish": 2,
+      "wins": 7,
+      "podiums": 79,
+      "poles": 35,
+      "fastestLaps": 28
+    },
+    "attributes": {
+      "pace": 90,
+      "consistency": 94,
+      "racecraft": 88,
+      "tyreManagement": 92,
+      "feedbackQuality": 91,
+      "adaptability": 89,
+      "wetWeather": 85,
+      "starts": 88
+    },
+    "development": {
+      "curve": "veteran_decline",
+      "peakAge": 28,
+      "learningRate": 0.80
+    },
+    "contract": {
+      "salaryExpectation": 2000000,
+      "instructorPointPotential": 82,
+      "marketValue": 5000000
+    },
+    "personality": ["calm", "technical"],
+    "bio": "Former Mercedes regular. Excellent feedback quality and consistency."
+  },
+  {
+    "id": "drv_024",
+    "name": "Nico Hülkenberg",
+    "nationality": "🇩🇪",
+    "age": 33,
+    "background": {
+      "primary": "F1",
+      "seasons": 8,
+      "bestChampionshipFinish": 5,
+      "wins": 0,
+      "podiums": 8,
+      "poles": 6,
+      "fastestLaps": 3
+    },
+    "attributes": {
+      "pace": 88,
+      "consistency": 90,
+      "racecraft": 87,
+      "tyreManagement": 89,
+      "feedbackQuality": 93,
+      "adaptability": 88,
+      "wetWeather": 89,
+      "starts": 85
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.90
+    },
+    "contract": {
+      "salaryExpectation": 1100000,
+      "instructorPointPotential": 78,
+      "marketValue": 4200000
+    },
+    "personality": ["technical", "calm"],
+    "bio": "The 'Hulk' is back with Haas. Known for incredible car setup skills."
+  },
+  {
+    "id": "drv_025",
+    "name": "Esteban Ocon",
+    "nationality": "🇫🇷",
+    "age": 28,
+    "background": {
+      "primary": "F1",
+      "seasons": 7,
+      "bestChampionshipFinish": 8,
+      "wins": 1,
+      "podiums": 6,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 85,
+      "racecraft": 84,
+      "tyreManagement": 83,
+      "feedbackQuality": 86,
+      "adaptability": 85,
+      "wetWeather": 82,
+      "starts": 83
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 1300000,
+      "instructorPointPotential": 72,
+      "marketValue": 4500000
+    },
+    "personality": ["technical", "reliable"],
+    "bio": "Alpine's drive-guru. Excellent at extracting performance from equipment."
+  },
+  {
+    "id": "drv_026",
+    "name": "Oliver Bearman",
+    "nationality": "🇬🇧",
+    "age": 20,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 3,
+      "wins": 1,
+      "podiums": 4,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 83,
+      "consistency": 79,
+      "racecraft": 81,
+      "tyreManagement": 77,
+      "feedbackQuality": 80,
+      "adaptability": 82,
+      "wetWeather": 72,
+      "starts": 80
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.20
+    },
+    "contract": {
+      "salaryExpectation": 550000,
+      "instructorPointPotential": 62,
+      "marketValue": 850000
+    },
+    "personality": ["learning", "improving"],
+    "bio": "F3 graduate making F1 debut. Raw talent with room to grow."
+  },
+  {
+    "id": "drv_027",
+    "name": "Théo Pourchaire",
+    "nationality": "🇫🇷",
+    "age": 19,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 4,
+      "wins": 1,
+      "podiums": 3,
+      "poles": 1,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 81,
+      "consistency": 75,
+      "racecraft": 78,
+      "tyreManagement": 74,
+      "feedbackQuality": 76,
+      "adaptability": 79,
+      "wetWeather": 68,
+      "starts": 78
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 23,
+      "learningRate": 1.30
+    },
+    "contract": {
+      "salaryExpectation": 450000,
+      "instructorPointPotential": 58,
+      "marketValue": 750000
+    },
+    "personality": ["raw_talent", "aggressive"],
+    "bio": "Young French talent from F3. High ceiling, needs experience."
+  },
+  {
+    "id": "drv_028",
+    "name": "Jak Crawford",
+    "nationality": "🇬🇧",
+    "age": 20,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 2,
+      "wins": 1,
+      "podiums": 5,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 78,
+      "racecraft": 80,
+      "tyreManagement": 76,
+      "feedbackQuality": 79,
+      "adaptability": 81,
+      "wetWeather": 75,
+      "starts": 82
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.15
+    },
+    "contract": {
+      "salaryExpectation": 580000,
+      "instructorPointPotential": 64,
+      "marketValue": 900000
+    },
+    "personality": ["steady", "improving"],
+    "bio": "Hitech Racing alumni. Consistent performer with good potential."
+  },
+  {
+    "id": "drv_029",
+    "name": "Ayumu Aoki",
+    "nationality": "🇯🇵",
+    "age": 24,
+    "background": {
+      "primary": "RacingSim",
+      "racingSimExperience": true,
+      "simRating": 9100,
+      "seasons": 3
+    },
+    "attributes": {
+      "pace": 87,
+      "consistency": 84,
+      "racecraft": 82,
+      "tyreManagement": 80,
+      "feedbackQuality": 88,
+      "adaptability": 86,
+      "wetWeather": 78,
+      "starts": 85
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.05
+    },
+    "contract": {
+      "salaryExpectation": 850000,
+      "instructorPointPotential": 74,
+      "marketValue": 1650000
+    },
+    "personality": ["analytical", "data_driven"],
+    "bio": "Simulator-to-track graduate. Strong on data analysis and feedback."
+  },
+  {
+    "id": "drv_030",
+    "name": "Riku Hirano",
+    "nationality": "🇯🇵",
+    "age": 21,
+    "background": {
+      "primary": "RacingSim",
+      "racingSimExperience": true,
+      "simRating": 9300,
+      "seasons": 2
+    },
+    "attributes": {
+      "pace": 89,
+      "consistency": 86,
+      "racecraft": 84,
+      "tyreManagement": 81,
+      "feedbackQuality": 90,
+      "adaptability": 88,
+      "wetWeather": 80,
+      "starts": 87
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 26,
+      "learningRate": 1.08
+    },
+    "contract": {
+      "salaryExpectation": 950000,
+      "instructorPointPotential": 76,
+      "marketValue": 1850000
+    },
+    "personality": ["technical", "improving"],
+    "bio": "Rising sim star making the jump. Exceptional at finding setup limits."
+  },
+  {
+    "id": "drv_031",
+    "name": "Damon Grimes",
+    "nationality": "🇺🇸",
+    "age": 22,
+    "background": {
+      "primary": "RacingSim",
+      "racingSimExperience": true,
+      "simRating": 9600,
+      "seasons": 4
+    },
+    "attributes": {
+      "pace": 91,
+      "consistency": 88,
+      "racecraft": 86,
+      "tyreManagement": 83,
+      "feedbackQuality": 93,
+      "adaptability": 91,
+      "wetWeather": 82,
+      "starts": 89
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.12
+    },
+    "contract": {
+      "salaryExpectation": 1100000,
+      "instructorPointPotential": 82,
+      "marketValue": 2300000
+    },
+    "personality": ["analytical", "technical"],
+    "bio": "Top-tier sim racer transitioning to real-world racing. Known for precision."
+  },
+  {
+    "id": "drv_032",
+    "name": "Isabella Moreau",
+    "nationality": "🇫🇷",
+    "age": 23,
+    "background": {
+      "primary": "GT3",
+      "seasons": 3,
+      "bestChampionshipFinish": 2,
+      "wins": 3,
+      "podiums": 8,
+      "poles": 4,
+      "fastestLaps": 3
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 91,
+      "racecraft": 85,
+      "tyreManagement": 92,
+      "feedbackQuality": 79,
+      "adaptability": 84,
+      "wetWeather": 86,
+      "starts": 85
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.95
+    },
+    "contract": {
+      "salaryExpectation": 900000,
+      "instructorPointPotential": 74,
+      "marketValue": 1700000
+    },
+    "personality": ["calm", "methodical"],
+    "bio": "French GT3 star with incredible tyre management. Smooth and consistent."
+  },
+  {
+    "id": "drv_033",
+    "name": "Luca Bianchi",
+    "nationality": "🇮🇹",
+    "age": 25,
+    "background": {
+      "primary": "F3",
+      "seasons": 3,
+      "bestChampionshipFinish": 3,
+      "wins": 2,
+      "podiums": 7,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 81,
+      "racecraft": 83,
+      "tyreManagement": 78,
+      "feedbackQuality": 81,
+      "adaptability": 84,
+      "wetWeather": 76,
+      "starts": 81
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.08
+    },
+    "contract": {
+      "salaryExpectation": 720000,
+      "instructorPointPotential": 68,
+      "marketValue": 1250000
+    },
+    "personality": ["technical", "methodical"],
+    "bio": "Italian F3 graduate. Strong on car setup, methodical approach."
+  },
+  {
+    "id": "drv_034",
+    "name": "Sofia Hendricks",
+    "nationality": "🇳🇴",
+    "age": 24,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 5,
+      "wins": 1,
+      "podiums": 5,
+      "poles": 1,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 83,
+      "racecraft": 80,
+      "tyreManagement": 82,
+      "feedbackQuality": 85,
+      "adaptability": 87,
+      "wetWeather": 78,
+      "starts": 84
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.18
+    },
+    "contract": {
+      "salaryExpectation": 780000,
+      "instructorPointPotential": 70,
+      "marketValue": 1300000
+    },
+    "personality": ["calm", "improving"],
+    "bio": "Norwegian F2 talent. Quiet but consistent performer."
+  },
+  {
+    "id": "drv_035",
+    "name": "Kaito Nakamura",
+    "nationality": "🇯🇵",
+    "age": 26,
+    "background": {
+      "primary": "F2",
+      "seasons": 3,
+      "bestChampionshipFinish": 3,
+      "wins": 2,
+      "podiums": 6,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 84,
+      "racecraft": 82,
+      "tyreManagement": 81,
+      "feedbackQuality": 83,
+      "adaptability": 86,
+      "wetWeather": 79,
+      "starts": 83
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 1.02
+    },
+    "contract": {
+      "salaryExpectation": 850000,
+      "instructorPointPotential": 72,
+      "marketValue": 1450000
+    },
+    "personality": ["analytical", "technical"],
+    "bio": "Three-time F2 podium finisher. Strong technical feedback."
+  },
+  {
+    "id": "drv_036",
+    "name": "Marco Greco",
+    "nationality": "🇮🇹",
+    "age": 21,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 4,
+      "wins": 1,
+      "podiums": 4,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 83,
+      "consistency": 78,
+      "racecraft": 80,
+      "tyreManagement": 76,
+      "feedbackQuality": 79,
+      "adaptability": 81,
+      "wetWeather": 73,
+      "starts": 80
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.16
+    },
+    "contract": {
+      "salaryExpectation": 600000,
+      "instructorPointPotential": 66,
+      "marketValue": 1000000
+    },
+    "personality": ["steady", "improving"],
+    "bio": "Italian F3 youngster with promising racecraft."
+  },
+  {
+    "id": "drv_037",
+    "name": "Hana Suzuki",
+    "nationality": "🇯🇵",
+    "age": 22,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 4,
+      "wins": 2,
+      "podiums": 5,
+      "poles": 1,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 81,
+      "racecraft": 79,
+      "tyreManagement": 80,
+      "feedbackQuality": 82,
+      "adaptability": 83,
+      "wetWeather": 77,
+      "starts": 82
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.08
+    },
+    "contract": {
+      "salaryExpectation": 720000,
+      "instructorPointPotential": 69,
+      "marketValue": 1200000
+    },
+    "personality": ["methodical", "improving"],
+    "bio": "Japanese F2 graduate with balanced skillset."
+  },
+  {
+    "id": "drv_038",
+    "name": "Tobias Lund",
+    "nationality": "🇸🇪",
+    "age": 25,
+    "background": {
+      "primary": "Formula E",
+      "seasons": 3,
+      "bestChampionshipFinish": 5,
+      "wins": 1,
+      "podiums": 4,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 86,
+      "racecraft": 82,
+      "tyreManagement": 90,
+      "feedbackQuality": 85,
+      "adaptability": 88,
+      "wetWeather": 80,
+      "starts": 83
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 980000,
+      "instructorPointPotential": 74,
+      "marketValue": 1600000
+    },
+    "personality": ["tactical", "smooth"],
+    "bio": "Swedish FE driver with elite energy management."
+  },
+  {
+    "id": "drv_039",
+    "name": "Rafael Costa",
+    "nationality": "🇧🇷",
+    "age": 24,
+    "background": {
+      "primary": "GT3",
+      "seasons": 3,
+      "bestChampionshipFinish": 3,
+      "wins": 3,
+      "podiums": 7,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 89,
+      "racecraft": 82,
+      "tyreManagement": 91,
+      "feedbackQuality": 80,
+      "adaptability": 84,
+      "wetWeather": 83,
+      "starts": 84
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.95
+    },
+    "contract": {
+      "salaryExpectation": 880000,
+      "instructorPointPotential": 72,
+      "marketValue": 1500000
+    },
+    "personality": ["smooth", "reliable"],
+    "bio": "Brazilian GT3 racer, master of tyre preservation."
+  },
+  {
+    "id": "drv_040",
+    "name": "Kenji Mori",
+    "nationality": "🇯🇵",
+    "age": 23,
+    "background": {
+      "primary": "RacingSim",
+      "racingSimExperience": true,
+      "simRating": 9500,
+      "seasons": 3
+    },
+    "attributes": {
+      "pace": 89,
+      "consistency": 87,
+      "racecraft": 83,
+      "tyreManagement": 82,
+      "feedbackQuality": 91,
+      "adaptability": 89,
+      "wetWeather": 79,
+      "starts": 86
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 26,
+      "learningRate": 1.06
+    },
+    "contract": {
+      "salaryExpectation": 1000000,
+      "instructorPointPotential": 80,
+      "marketValue": 1900000
+    },
+    "personality": ["analytical", "data_driven"],
+    "bio": "Elite sim racer turned real-world competitor."
+  },
+  {
+    "id": "drv_041",
+    "name": "Lena Vogt",
+    "nationality": "🇩🇪",
+    "age": 19,
+    "background": {
+      "primary": "Karting",
+      "seasons": 3,
+      "bestChampionshipFinish": 2,
+      "wins": 4,
+      "podiums": 10,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 83,
+      "consistency": 74,
+      "racecraft": 86,
+      "tyreManagement": 71,
+      "feedbackQuality": 74,
+      "adaptability": 78,
+      "wetWeather": 67,
+      "starts": 84
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 23,
+      "learningRate": 1.28
+    },
+    "contract": {
+      "salaryExpectation": 480000,
+      "instructorPointPotential": 60,
+      "marketValue": 800000
+    },
+    "personality": ["raw_talent", "aggressive"],
+    "bio": "Karting standout with raw racecraft, needs polish."
+  },
+  {
+    "id": "drv_042",
+    "name": "Theo Almeida",
+    "nationality": "🇵🇹",
+    "age": 26,
+    "background": {
+      "primary": "F2",
+      "seasons": 3,
+      "bestChampionshipFinish": 6,
+      "wins": 1,
+      "podiums": 6,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 83,
+      "racecraft": 81,
+      "tyreManagement": 80,
+      "feedbackQuality": 84,
+      "adaptability": 85,
+      "wetWeather": 78,
+      "starts": 83
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 1.02
+    },
+    "contract": {
+      "salaryExpectation": 800000,
+      "instructorPointPotential": 70,
+      "marketValue": 1350000
+    },
+    "personality": ["technical", "calm"],
+    "bio": "Portuguese F2 veteran, steady points scorer."
+  },
+  {
+    "id": "drv_043",
+    "name": "Priya Nair",
+    "nationality": "🇮🇳",
+    "age": 22,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 3,
+      "wins": 1,
+      "podiums": 3,
+      "poles": 1,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 82,
+      "consistency": 79,
+      "racecraft": 80,
+      "tyreManagement": 77,
+      "feedbackQuality": 81,
+      "adaptability": 82,
+      "wetWeather": 74,
+      "starts": 79
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.18
+    },
+    "contract": {
+      "salaryExpectation": 560000,
+      "instructorPointPotential": 64,
+      "marketValue": 900000
+    },
+    "personality": ["learning", "methodical"],
+    "bio": "Indian F3 talent with strong technical aptitude."
+  },
+  {
+    "id": "drv_044",
+    "name": "Hugo Bernard",
+    "nationality": "🇫🇷",
+    "age": 27,
+    "background": {
+      "primary": "Formula E",
+      "seasons": 4,
+      "bestChampionshipFinish": 4,
+      "wins": 2,
+      "podiums": 9,
+      "poles": 4,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 88,
+      "racecraft": 84,
+      "tyreManagement": 92,
+      "feedbackQuality": 87,
+      "adaptability": 90,
+      "wetWeather": 83,
+      "starts": 85
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.95
+    },
+    "contract": {
+      "salaryExpectation": 1050000,
+      "instructorPointPotential": 76,
+      "marketValue": 1750000
+    },
+    "personality": ["tactical", "smooth"],
+    "bio": "French FE podium regular, superb in energy modes."
+  },
+  {
+    "id": "drv_045",
+    "name": "Mia Larsson",
+    "nationality": "🇸🇪",
+    "age": 20,
+    "background": {
+      "primary": "Karting",
+      "seasons": 4,
+      "bestChampionshipFinish": 1,
+      "wins": 5,
+      "podiums": 12,
+      "poles": 5,
+      "fastestLaps": 3
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 77,
+      "racecraft": 87,
+      "tyreManagement": 73,
+      "feedbackQuality": 76,
+      "adaptability": 80,
+      "wetWeather": 70,
+      "starts": 86
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 24,
+      "learningRate": 1.26
+    },
+    "contract": {
+      "salaryExpectation": 520000,
+      "instructorPointPotential": 62,
+      "marketValue": 950000
+    },
+    "personality": ["aggressive", "raw_talent"],
+    "bio": "Karting champion, fearless overtaker."
+  },
+  {
+    "id": "drv_046",
+    "name": "Daniel Okoro",
+    "nationality": "🇳🇬",
+    "age": 23,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 5,
+      "wins": 2,
+      "podiums": 4,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 82,
+      "racecraft": 83,
+      "tyreManagement": 79,
+      "feedbackQuality": 81,
+      "adaptability": 84,
+      "wetWeather": 76,
+      "starts": 85
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.14
+    },
+    "contract": {
+      "salaryExpectation": 740000,
+      "instructorPointPotential": 68,
+      "marketValue": 1250000
+    },
+    "personality": ["determined", "improving"],
+    "bio": "Nigerian F2 prospect with growing reputation."
+  },
+  {
+    "id": "drv_047",
+    "name": "Yasmin Khalid",
+    "nationality": "🇪🇬",
+    "age": 24,
+    "background": {
+      "primary": "GT3",
+      "seasons": 3,
+      "bestChampionshipFinish": 2,
+      "wins": 4,
+      "podiums": 9,
+      "poles": 5,
+      "fastestLaps": 3
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 90,
+      "racecraft": 84,
+      "tyreManagement": 93,
+      "feedbackQuality": 81,
+      "adaptability": 85,
+      "wetWeather": 84,
+      "starts": 86
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.95
+    },
+    "contract": {
+      "salaryExpectation": 920000,
+      "instructorPointPotential": 73,
+      "marketValue": 1650000
+    },
+    "personality": ["calm", "methodical"],
+    "bio": "Egyptian GT3 star, relentless tyre management."
+  },
+  {
+    "id": "drv_048",
+    "name": "Felix Braun",
+    "nationality": "🇩🇪",
+    "age": 28,
+    "background": {
+      "primary": "RacingSim",
+      "racingSimExperience": true,
+      "simRating": 9200,
+      "seasons": 5
+    },
+    "attributes": {
+      "pace": 88,
+      "consistency": 86,
+      "racecraft": 83,
+      "tyreManagement": 83,
+      "feedbackQuality": 89,
+      "adaptability": 87,
+      "wetWeather": 80,
+      "starts": 85
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.00
+    },
+    "contract": {
+      "salaryExpectation": 950000,
+      "instructorPointPotential": 77,
+      "marketValue": 1700000
+    },
+    "personality": ["analytical", "technical"],
+    "bio": "Veteran sim racer, precise and consistent."
+  },
+  {
+    "id": "drv_049",
+    "name": "Sara Lindqvist",
+    "nationality": "🇸🇪",
+    "age": 21,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 3,
+      "wins": 1,
+      "podiums": 5,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 83,
+      "consistency": 80,
+      "racecraft": 81,
+      "tyreManagement": 78,
+      "feedbackQuality": 80,
+      "adaptability": 82,
+      "wetWeather": 75,
+      "starts": 81
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.10
+    },
+    "contract": {
+      "salaryExpectation": 580000,
+      "instructorPointPotential": 66,
+      "marketValue": 950000
+    },
+    "personality": ["methodical", "learning"],
+    "bio": "Swedish F3 driver, well-rounded and coachable."
+  },
+  {
+    "id": "drv_050",
+    "name": "Andres Mosquera",
+    "nationality": "🇨🇴",
+    "age": 25,
+    "background": {
+      "primary": "GT3",
+      "seasons": 4,
+      "bestChampionshipFinish": 3,
+      "wins": 2,
+      "podiums": 6,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 83,
+      "consistency": 88,
+      "racecraft": 81,
+      "tyreManagement": 90,
+      "feedbackQuality": 79,
+      "adaptability": 83,
+      "wetWeather": 82,
+      "starts": 84
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.98
+    },
+    "contract": {
+      "salaryExpectation": 860000,
+      "instructorPointPotential": 70,
+      "marketValue": 1450000
+    },
+    "personality": ["reliable", "smooth"],
+    "bio": "Colombian GT3 endurance specialist."
+  },
+  {
+    "id": "drv_051",
+    "name": "Tom Becker",
+    "nationality": "🇬🇧",
+    "age": 22,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 4,
+      "wins": 3,
+      "podiums": 7,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 87,
+      "consistency": 83,
+      "racecraft": 84,
+      "tyreManagement": 81,
+      "feedbackQuality": 84,
+      "adaptability": 85,
+      "wetWeather": 79,
+      "starts": 86
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.06
+    },
+    "contract": {
+      "salaryExpectation": 780000,
+      "instructorPointPotential": 71,
+      "marketValue": 1300000
+    },
+    "personality": ["aggressive", "technical"],
+    "bio": "British F2 winner with strong qualifying pace."
+  },
+  {
+    "id": "drv_052",
+    "name": "Ingrid Olsen",
+    "nationality": "🇳🇴",
+    "age": 26,
+    "background": {
+      "primary": "Formula E",
+      "seasons": 3,
+      "bestChampionshipFinish": 5,
+      "wins": 1,
+      "podiums": 5,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 83,
+      "consistency": 85,
+      "racecraft": 81,
+      "tyreManagement": 89,
+      "feedbackQuality": 84,
+      "adaptability": 87,
+      "wetWeather": 81,
+      "starts": 82
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.98
+    },
+    "contract": {
+      "salaryExpectation": 900000,
+      "instructorPointPotential": 72,
+      "marketValue": 1500000
+    },
+    "personality": ["calm", "tactical"],
+    "bio": "Norwegian FE driver, cool under pressure."
+  },
+  {
+    "id": "drv_053",
+    "name": "Raj Patel",
+    "nationality": "🇮🇳",
+    "age": 23,
+    "background": {
+      "primary": "RacingSim",
+      "racingSimExperience": true,
+      "simRating": 9400,
+      "seasons": 3
+    },
+    "attributes": {
+      "pace": 88,
+      "consistency": 85,
+      "racecraft": 83,
+      "tyreManagement": 81,
+      "feedbackQuality": 90,
+      "adaptability": 88,
+      "wetWeather": 79,
+      "starts": 86
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 26,
+      "learningRate": 1.04
+    },
+    "contract": {
+      "salaryExpectation": 980000,
+      "instructorPointPotential": 78,
+      "marketValue": 1750000
+    },
+    "personality": ["analytical", "data_driven"],
+    "bio": "Indian sim ace with top-tier feedback output."
+  },
+  {
+    "id": "drv_054",
+    "name": "Camila Reyes",
+    "nationality": "🇦🇷",
+    "age": 20,
+    "background": {
+      "primary": "Karting",
+      "seasons": 4,
+      "bestChampionshipFinish": 1,
+      "wins": 3,
+      "podiums": 9,
+      "poles": 4,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 76,
+      "racecraft": 85,
+      "tyreManagement": 72,
+      "feedbackQuality": 75,
+      "adaptability": 79,
+      "wetWeather": 69,
+      "starts": 85
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 23,
+      "learningRate": 1.24
+    },
+    "contract": {
+      "salaryExpectation": 500000,
+      "instructorPointPotential": 61,
+      "marketValue": 850000
+    },
+    "personality": ["raw_talent", "aggressive"],
+    "bio": "Argentinian karting champ with electric pace."
+  },
+  {
+    "id": "drv_055",
+    "name": "Noah Fischer",
+    "nationality": "🇦🇹",
+    "age": 24,
+    "background": {
+      "primary": "F3",
+      "seasons": 3,
+      "bestChampionshipFinish": 4,
+      "wins": 2,
+      "podiums": 6,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 81,
+      "racecraft": 82,
+      "tyreManagement": 79,
+      "feedbackQuality": 82,
+      "adaptability": 83,
+      "wetWeather": 77,
+      "starts": 82
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 1.08
+    },
+    "contract": {
+      "salaryExpectation": 640000,
+      "instructorPointPotential": 67,
+      "marketValue": 1050000
+    },
+    "personality": ["methodical", "improving"],
+    "bio": "Austrian F3 regular, consistent midfield runner."
+  },
+  {
+    "id": "drv_056",
+    "name": "Mei Lin",
+    "nationality": "🇨🇳",
+    "age": 22,
+    "background": {
+      "primary": "F2",
+      "seasons": 2,
+      "bestChampionshipFinish": 5,
+      "wins": 1,
+      "podiums": 4,
+      "poles": 1,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 84,
+      "consistency": 82,
+      "racecraft": 80,
+      "tyreManagement": 80,
+      "feedbackQuality": 83,
+      "adaptability": 84,
+      "wetWeather": 78,
+      "starts": 81
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.15
+    },
+    "contract": {
+      "salaryExpectation": 700000,
+      "instructorPointPotential": 69,
+      "marketValue": 1150000
+    },
+    "personality": ["analytical", "learning"],
+    "bio": "Chinese F2 driver, technically gifted."
+  },
+  {
+    "id": "drv_057",
+    "name": "Omar Haddad",
+    "nationality": "🇱🇧",
+    "age": 27,
+    "background": {
+      "primary": "GT3",
+      "seasons": 5,
+      "bestChampionshipFinish": 1,
+      "wins": 5,
+      "podiums": 11,
+      "poles": 6,
+      "fastestLaps": 4
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 91,
+      "racecraft": 86,
+      "tyreManagement": 94,
+      "feedbackQuality": 82,
+      "adaptability": 86,
+      "wetWeather": 87,
+      "starts": 87
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 28,
+      "learningRate": 0.92
+    },
+    "contract": {
+      "salaryExpectation": 980000,
+      "instructorPointPotential": 74,
+      "marketValue": 1700000
+    },
+    "personality": ["smooth", "veteran"],
+    "bio": "Lebanese GT3 champion, endurance legend."
+  },
+  {
+    "id": "drv_058",
+    "name": "Greta Novak",
+    "nationality": "🇨🇿",
+    "age": 19,
+    "background": {
+      "primary": "Karting",
+      "seasons": 4,
+      "bestChampionshipFinish": 1,
+      "wins": 6,
+      "podiums": 14,
+      "poles": 6,
+      "fastestLaps": 4
+    },
+    "attributes": {
+      "pace": 86,
+      "consistency": 75,
+      "racecraft": 88,
+      "tyreManagement": 72,
+      "feedbackQuality": 77,
+      "adaptability": 80,
+      "wetWeather": 71,
+      "starts": 87
+    },
+    "development": {
+      "curve": "early_peak",
+      "peakAge": 22,
+      "learningRate": 1.30
+    },
+    "contract": {
+      "salaryExpectation": 540000,
+      "instructorPointPotential": 63,
+      "marketValue": 1000000
+    },
+    "personality": ["raw_talent", "fearless"],
+    "bio": "Czech karting phenomenon, youngest prodigy on grid."
+  },
+  {
+    "id": "drv_059",
+    "name": "Leon Wagner",
+    "nationality": "🇩🇪",
+    "age": 25,
+    "background": {
+      "primary": "Formula E",
+      "seasons": 3,
+      "bestChampionshipFinish": 6,
+      "wins": 2,
+      "podiums": 8,
+      "poles": 3,
+      "fastestLaps": 2
+    },
+    "attributes": {
+      "pace": 85,
+      "consistency": 87,
+      "racecraft": 83,
+      "tyreManagement": 91,
+      "feedbackQuality": 86,
+      "adaptability": 89,
+      "wetWeather": 82,
+      "starts": 84
+    },
+    "development": {
+      "curve": "steady",
+      "peakAge": 27,
+      "learningRate": 0.98
+    },
+    "contract": {
+      "salaryExpectation": 960000,
+      "instructorPointPotential": 75,
+      "marketValue": 1600000
+    },
+    "personality": ["tactical", "technical"],
+    "bio": "German FE driver, energy strategy expert."
+  },
+  {
+    "id": "drv_060",
+    "name": "Aisha Rahman",
+    "nationality": "🇧🇩",
+    "age": 21,
+    "background": {
+      "primary": "F3",
+      "seasons": 2,
+      "bestChampionshipFinish": 4,
+      "wins": 1,
+      "podiums": 4,
+      "poles": 2,
+      "fastestLaps": 1
+    },
+    "attributes": {
+      "pace": 82,
+      "consistency": 80,
+      "racecraft": 80,
+      "tyreManagement": 78,
+      "feedbackQuality": 81,
+      "adaptability": 82,
+      "wetWeather": 76,
+      "starts": 80
+    },
+    "development": {
+      "curve": "late_bloomer",
+      "peakAge": 27,
+      "learningRate": 1.18
+    },
+    "contract": {
+      "salaryExpectation": 560000,
+      "instructorPointPotential": 65,
+      "marketValue": 900000
+    },
+    "personality": ["learning", "methodical"],
+    "bio": "Bangladeshi F3 talent, quick learner."
+  }
+]
